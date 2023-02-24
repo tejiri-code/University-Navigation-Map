@@ -1,0 +1,24 @@
+body{background-color:white;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;}
+    .main{text-decoration: none;
+        margin-left: 300px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;}
+    .top{background-color: #033a97;
+    height: 70px;
+    display: flex;
+    position: sticky;
+ top: 0;
+ bottom: 0;
+}
+.Name{text-align:center ;
+    color: white;
+    font-size: 50px; 
+    margin-left: 600px;
+    font-family:serif;
+}
+.words{margin-left: 20px;}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head> <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>SAT</title></head>
+    <link rel="stylesheet" href="sat.css">
+    <body>
+        <div class="top">
+        <div class="Name"><u>Science And Technology building(SAT)</u></div>
+        <div class="main">
+          <a href="Babcock Univeristy Personal Map.html" target="_blank">Home Page</a></div>
+        </div>
+        </div>
+<div class="words">
+    <h2>
+       This is an academic building for the school of science and technology where both science labs are situated.Classes are held there.
+    </h2>
+    <h2><u>Directions:</u></h2> 
+    <h3>Once you enter the school,you go straight down until the first roundabout then take the left turning
+        and move straight down until you get to the Babcock tower behind amphitheater .From the tower, walk down 
+        and turn right at the first intersection and left at the second intersection
+        
+    </h3>
+</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none}
+</style>
+<div class="w3-content" style="max-width:800px">
+    <img class="mySlides" src="image/outside.jpg" style="width: 800px;">
+    <img class="mySlides" src="image/gate.jpg" style="width: 800px;">
+    <img class="mySlides" src="image/tower.jpg" style="width: 800px;">
+    <img class="mySlides" src="image/roundabout1.jpg" style="width: 800px;">
+    <img class="mySlides" src="image/sat1.jpg" style="width: 800px;">
+    <img class="mySlides" src="image/sat2.jpg" style="width: 800px;">
+    <img class="mySlides" src="image/sat3.jpg" style="width: 800px;">
+</div>
+
+<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+  </div>
+  <button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+  <button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+  <button class="w3-button demo" onclick="currentDiv(3)">3</button> 
+  <button class="w3-button demo" onclick="currentDiv(4)">4</button> 
+  <button class="w3-button demo" onclick="currentDiv(5)">5</button> 
+  <button class="w3-button demo" onclick="currentDiv(6)">6</button>
+  <button class="w3-button demo" onclick="currentDiv(7)">7</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-red", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-red";
+}
+</script>
+
+    </body>
+</html>
