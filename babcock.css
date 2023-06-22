@@ -276,7 +276,7 @@ color: #b38b07;}
     }
 
     /* Media query for smaller phones */
-    @media (max-width: 767px) {
+    @media (max-width: 480px) {
         .banner1 {
             height: 50px;
         }
