@@ -283,6 +283,7 @@ color: #b38b07;}
     @media (max-width: 768px) {
         .banner1 {
             height: 50px;
+            font-size: 5px;
         }
 
         a {
