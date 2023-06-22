@@ -341,7 +341,7 @@ color: #b38b07;}
         .fem {
             margin-left: 20px;
             margin-right: 10px;
-          
+          height: fit-content;
         }
 
         .male {
