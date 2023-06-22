@@ -22,3 +22,28 @@ body{background-color:white;
     font-family:serif;
 }
 .words{margin-left: 20px;}
+.w3-content .mySlides {
+    width: 100%;
+  }
+  
+  @media (max-width: 480px) {
+    .Name{font-size: 30px;
+        margin-left: 120px;
+    margin-top: 10px;
+    display: flex;}
+    .main{margin-left: 80px;
+    font-size: 10px;
+    text-decoration: none;}
+        .w3-content {
+          max-width: 100%;
+        }
+        .words h2 , .words h3{font-size: 15px;}
+      }
+  
+  
+  @media (max-width: 320px) {
+    .w3-button {
+      font-size: 12px;
+    }
+  }
+  
