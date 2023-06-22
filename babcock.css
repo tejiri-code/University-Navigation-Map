@@ -296,7 +296,7 @@ color: #b38b07;}
             margin-left: 20px;
         }
 
-        .name2 {
+        .name2 {display: none;
             width: 32px;
             margin-left: 230px;
         }
