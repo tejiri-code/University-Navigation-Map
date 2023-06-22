@@ -306,7 +306,7 @@ color: #b38b07;}
             margin-bottom: 0;
         }
 
-        .bod {
+        .bod {display: block;
             margin-bottom: 20px;
         }
 
