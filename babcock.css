@@ -219,7 +219,8 @@ a {
         height: 50px;
     }
 .banner1 {font-size: 5px;
-width: 100%;}
+width: 100%;
+height: fit-content;}
 .banner1 a{font-size: 5px;}
     .banner img {
         margin-left: 20px;
