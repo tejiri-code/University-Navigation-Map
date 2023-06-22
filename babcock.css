@@ -220,7 +220,8 @@ a {
     }
 .banner1 {font-size: 5px;
 width: 100%;}
-.banner1 a{margin-left:2px}
+.banner1 a{margin-left:2px;
+font-size: 5px;}
     a {
         margin-left: 20px;
     }
