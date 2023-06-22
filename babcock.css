@@ -167,3 +167,221 @@ color: #b38b07;}
                             border-width: 10px;
                             border-top: 5px;}
                         .banner img{margin-left: 20px;} 
+                         /* Media query for tablets and large phones */
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .banner1 {
+            height: 60px;
+        }
+
+        a {
+            font-size: 14px;
+            margin-left: 40px;
+            margin-top: 12px;
+        }
+
+        .banner {
+            height: 90px;
+        }
+
+        .name {
+            font-size: 24px;
+            margin-left: 303px;
+        }
+
+        .name2 {
+            width: 42px;
+            margin-left: 280px;
+        }
+
+        .words {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .bod {
+            margin-bottom: 20px;
+        }
+
+        .dir {
+            margin-right: 20px;
+            width: 800px;
+        }
+
+        .clas {
+            margin-right: 20px;
+            margin-top: 15px;
+            width: 800px;
+        }
+
+        .stadium {
+            margin-right: 20px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            width: 800px;
+        }
+
+        .fem {
+            margin-left: 120px;
+            margin-right: 10px;
+            height: 250px;
+        }
+
+        .male {
+            margin-left: 120px;
+            margin-right: 10px;
+            height: 250px;
+        }
+
+        .caf {
+            margin-left: 120px;
+            margin-right: 10px;
+            width: 600px;
+        }
+
+        .sat {
+            margin-left: 120px;
+            margin-right: 10px;
+            width: 580px;
+        }
+
+        .stad {
+            margin-left: 120px;
+            margin-right: 10px;
+            width: 600px;
+        }
+
+        .EAH {
+            width: 580px;
+            margin-left: 120px;
+            margin-right: 10px;
+        }
+
+        .rad1 h2 {
+            margin-left: 15px;
+        }
+
+        .tap {
+            margin-top: 15px;
+            height: 40px;
+            width: 120px;
+            font-size: 15px;
+        }
+
+        .tap2 {
+            margin-top: 15px;
+            height: 40px;
+            width: 120px;
+            font-size: 15px;
+        }
+    }
+
+    /* Media query for smaller phones */
+    @media (max-width: 767px) {
+        .banner1 {
+            height: 50px;
+        }
+
+        a {
+            font-size: 12px;
+            margin-left: 30px;
+            margin-top: 8px;
+        }
+
+        .banner {
+            height: 70px;
+        }
+
+        .name {
+            font-size: 18px;
+            margin-left: 250px;
+        }
+
+        .name2 {
+            width: 32px;
+            margin-left: 230px;
+        }
+
+        .words {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .bod {
+            margin-bottom: 20px;
+        }
+
+        .dir {
+            margin-right: 10px;
+            width: 340px;
+            flex-wrap: wrap;
+        }
+
+        .clas {
+            margin-right: 10px;
+            margin-top: 15px;
+            width: 340px;
+            flex-wrap: wrap;
+        }
+
+        .stadium {
+            margin-right: 10px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            width: 340px;
+            flex-wrap: wrap;
+        }
+
+        .fem {
+            margin-left: 20px;
+            margin-right: 10px;
+            height: 200px;
+        }
+
+        .male {
+            margin-left: 20px;
+            margin-right: 10px;
+            height: 200px;
+        }
+
+        .caf {
+            margin-left: 20px;
+            margin-right: 10px;
+            width: 300px;
+        }
+
+        .sat {
+            margin-left: 20px;
+            margin-right: 10px;
+            width: 280px;
+        }
+
+        .stad {
+            margin-left: 20px;
+            margin-right: 10px;
+            width: 300px;
+        }
+
+        .EAH {
+            width: 280px;
+            margin-left: 20px;
+            margin-right: 10px;
+        }
+
+        .rad1 h2 {
+            margin-left: 10px;
+        }
+
+        .tap {
+            margin-top: 15px;
+            height: 30px;
+            width: 100px;
+            font-size: 12px;
+        }
+
+        .tap2 {
+            margin-top: 15px;
+            height: 30px;
+            width: 100px;
+            font-size: 12px;
+        }
+    }
