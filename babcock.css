@@ -283,9 +283,9 @@ color: #b38b07;}
     @media (max-width: 768px) {
         .banner1 {
             height: 50px;
-            font-size: 5px;
         }
-
+.banner1 a{ font-size: 5px;
+}}
         a {
             font-size: 10px;
             margin-left: 30px;
