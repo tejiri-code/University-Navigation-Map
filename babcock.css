@@ -212,7 +212,7 @@ a {
 @media (max-width: 480px) {
     .name {display: flex;
         margin-left: 10px;
-        font-size: 20px;
+        font-size: 15px;
     }
 .name2{display: none;}
     .banner {
