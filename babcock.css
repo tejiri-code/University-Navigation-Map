@@ -213,6 +213,7 @@ a {
     .name {display: flex;
         margin-left: 10px;
         font-size: 15px;
+        margin-top: 10px;
     }
 .name2{display: none;}
     .banner {
@@ -220,15 +221,12 @@ a {
     }
 .banner1 {font-size: 15px;
 width: 100%;
-height: fit-content;}
-.banner1 a{font-size: 5px;}
-    .banner img {
-        margin-left: 20px;
-        width: 40px;
-        height: 40px;
-    }
-
-    .words{ font-size: 15px;}
+height: 60px;
+flex-wrap: wrap}
+.banner1 a{font-size: 10px;
+flex-wrap: wrap;}
+ 
+    .words{ font-size: 10px;}
 
     a {flex-wrap: wrap;
         margin-left: 20px;
@@ -243,6 +241,8 @@ height: fit-content;}
     }
 
     .tap, .tap2 {
-        width: 120px;
+        width: 100px;
+        height: 35px;
+        font-size:10px
     }
 }
