@@ -306,7 +306,8 @@ color: #b38b07;}
             margin-bottom: 0;
         }
 
-        .bod {display: block;
+        .bod {flex-wrap: wrap;
+            flex-direction: row;
             margin-bottom: 20px;
         }
 
